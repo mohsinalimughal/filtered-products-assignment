@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin: 3vw;
+}
+.card{
+    border: 1px solid black;
+    padding: 1vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+    height: 16vw;
+    border-radius: 1vw;
+    font-size: 2vw;
+}
+.btns>button{
+    background-color: aliceblue;
+    color: black;
+    font-size: 01vw;
+    font-style: italic;
+    height: 4vw;
+    width: 8vw;
+    border-radius: 1vw;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+h1{
+    text-align: center;
+    margin-bottom: 3vw;
+}
